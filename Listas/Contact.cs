@@ -33,5 +33,10 @@ namespace Listas
         {
             return next;
         }
+
+        public override string? ToString()
+        {
+            return $"Name: {name} | Phone: {phone}";
+        }
     }
 }
